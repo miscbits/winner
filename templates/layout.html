@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/static/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/static/css/styles.css">
+        <script src="/static/js/jquery-1.11.3.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/main.js"></script>
+<!--        <link rel='shortcut icon' type='image/x-icon' href='/static/img/favicon.ico'/> -->
+        {% block customHead %} {% endblock %}
+
+        <title>{% block title %} You're Amazing {% endblock %}</title>
+    </head>
+    <body>
+        <!-- /header -->
+            {% block content %} {% endblock %}
+        </div>
+        <footer id="footer">
+            <p id="designed-by">Designed with love by <a target="_blank" href="https://twitter.com/WilhemArthur">Wilhem Arthur</a><p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %} {{super()}} {% endblock %}
+
+{% block customHead %} {% endblock %}
+
+{% block content %}
+
+<div id="page_container" class="container">
+    <form>
+
+        <h2><label for="wakeup">Wake Up</label></h2>
+        <div id="checkbox_wrapper">
+            <input id="wakeup" type="checkbox">
+            <span class="check_span"><span>
+        </div>
+
+        <h2><label for="stretch">Stretch</label></h2>
+        <div id="checkbox_wrapper">
+            <input id="stretch" type="checkbox">
+            <span class="check_span"><span>
+        </div>
+
+        <h2><label for="breathe">Breathe</label></h2>
+        <div id="checkbox_wrapper">
+            <input id="breathe" type="checkbox">
+            <span class="check_span"><span>
+        </div>
+
+    </form>
+</div>
+
+{% endblock %}
